@@ -6,14 +6,15 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-|`template_vazio.csv` | CSV | Estrutura padrão para novos usuários começarem a registrar gastos.|
-| `fluxo_caixa.csv` | CSV | Registro de entradas e saídas (receita vs. despesas operacionais), para usuarios com histórico. |
-| `perfil_negocio.json` | JSON | Dados do MEI: setor (serviços/comércio), faturamento anual e metas de reserva. |
-| `guia_tributario_mei.md` |Markdown | Base de consulta para dúvidas sobre DAS, nota fiscal e prazos. |
-| `metas_saude_financeira.json` | JSON | Objetivos do usuário (ex: criar reserva de emergência, comprar equipamento). |
+|`historico_atendimento.csv` | CSV | Treinamento de Contexto: Ensina a IA a identificar temas comuns (DAS, Maquininha, Capital de Giro) e o tom de voz para resolver problemas.|
+| `perfil_investidor.json` | JSON | Memória de Longo Prazo: Define quem é o MEI, seu faturamento, metas (ex: reserva de 6 meses) e se ele possui o hábito de misturar contas pessoais. |
+| `produtos_financeiros.json` | JSON | Objetivos do usuário (ex: criar reserva de emergência, comprar equipamento). |
+| `transacoes.csv` | CSV | Dados fictícios para o usuário testar as funcionalidades de análise. |
+| `guia_tributario_mei.md` |Markdown | Base de consulta para dúvidas sobre DAS, nota fiscal e prazos. 
 | `dicionario_mei.json` | JSON | Base de conhecimento estática com regras do Simples Nacional e MEI. |
 | `input_conversacional` | Texto (Memória) | Dados coletados via chat para usuários sem histórico (onboarding). |
-| `exemplo_demonstrativo.csv` | CSV | Dados fictícios para o usuário testar as funcionalidades de análise. |
+
+
 
 
 
